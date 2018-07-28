@@ -1,0 +1,5 @@
+SELECT Salary FROM (SELECT Salary FROM Employee ORDER BY salary DESC LIMIT 2) AS Emp ORDER BY salary LIMIT 1;
+
+
+Read more: http://www.java67.com/2015/01/second-highest-salary-in-mysql-and-sql-server.html#ixzz5LK42sAmg
+
